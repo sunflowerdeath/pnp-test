@@ -1,0 +1,12 @@
+{
+  "name": "@yarn-pnp-test/component-a",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "Unlicense",
+  "peerDependencies": {
+    "react": "^16.4.0"
+  },
+  "dependencies": {
+	"@pnp-test/context": "file:../context"
+  }
+}
